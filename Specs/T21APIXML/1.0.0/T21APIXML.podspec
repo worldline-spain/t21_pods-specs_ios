@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
         :git => "https://github.com/worldline-spain/t21_xml-api_ios.git", :tag => "1.0.0"
     }
 
+    s.dependency 'KissXML', '~> 5.0'
     s.source_files = "src/**/*.{h,m}", "lib/**/*.{h,m}"
     s.requires_arc = true
     s.ios.deployment_target = '8.0'
